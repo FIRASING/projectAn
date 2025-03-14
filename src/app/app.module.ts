@@ -16,6 +16,9 @@ import { ApartmentsByResidenceComponent } from './Apartements/apartments-by-resi
 import { AddApartmentComponent } from './Apartements/add-apartment/add-apartment.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HomeComponent } from './home/home.component';
+import { AddApartementComponent } from './Apartements/add-apartement/add-apartement.component';
+import { ErrorComponent } from './error/error.component';
+import { UpdateResidenceComponent } from './Residence/update-residence/update-residence.component';
 
 
 @NgModule({
@@ -33,6 +36,9 @@ import { HomeComponent } from './home/home.component';
     AddApartmentComponent,
     NotFoundComponent,
     HomeComponent,
+    AddApartementComponent,
+    ErrorComponent,
+    UpdateResidenceComponent,
     
     
     
